@@ -5,6 +5,7 @@ using System.IO;
 using UnityEditor;
 using UnityEngine;
 
+// New script
 public class SoundPostprocessor : AssetPostprocessor
 {
     private const int MinSizeForStreaming = 1048576;

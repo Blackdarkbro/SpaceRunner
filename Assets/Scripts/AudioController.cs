@@ -4,6 +4,7 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 
+// New Script
 public class AudioController : MonoBehaviour
 {
     [SerializeField] private Slider musicSlider = default;

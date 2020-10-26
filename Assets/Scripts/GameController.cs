@@ -121,6 +121,7 @@ public class GameController : MonoBehaviour
         RS.StartGame();
         SM.canMove = true;
         
+        // New string
         _audioController.PlayEngineSound();
 
         gameOverText.gameObject.SetActive(false);
@@ -148,6 +149,8 @@ public class GameController : MonoBehaviour
         if ((int) score >= _highScore) congratulationsText.gameObject.SetActive(true);
         // save high score in computer
         PlayerPrefs.SetInt("High Score", _highScore);
+        
+        // New string
         _audioController.PlayCrashSound();
     }
 
